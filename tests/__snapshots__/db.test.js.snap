@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`POS: MongoDB Snapshot Testing POS: should update the existing user data correctly 1`] = `
+{
+  "_id": "constant-id",
+  "age": 35,
+  "name": "John Doe",
+}
+`;
+
+exports[`POS: MongoDB Snapshot Testing should retrieve the correct product data 1`] = `
+{
+  "_id": "constant-id",
+  "price": 1200,
+  "product": "Laptop",
+}
+`;
+
+exports[`POS: MongoDB Snapshot Testing should retrieve the correct user data 1`] = `
+{
+  "_id": "constant-id",
+  "age": 30,
+  "name": "John Doe",
+}
+`;

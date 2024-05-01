@@ -1,0 +1,21 @@
+[
+    {
+      "_id": "1",
+      "name": "Alice Smith",
+      "age": 28,
+      "email": "alice@example.com"
+    },
+    {
+      "_id": "2",
+      "name": "Bob Johnson",
+      "age": 32,
+      "email": "bob@example.com"
+    },
+    {
+      "_id": "3",
+      "name": "Carol Williams",
+      "age": 45,
+      "email": "carol@example.com"
+    }
+  ]
+  

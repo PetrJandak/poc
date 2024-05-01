@@ -2,7 +2,6 @@ import mongodb from 'mongodb';
 const { MongoClient } = mongodb;
 import { MongoMemoryServer } from 'mongodb-memory-server';
 
-// Continue with your existing test code
 describe('Product Integration Tests', function() {
   let mongoServer;
   let db;

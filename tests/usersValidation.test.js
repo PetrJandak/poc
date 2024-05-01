@@ -1,10 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-
-// Read and parse the exported JSON data
 const exportedUsers = JSON.parse(fs.readFileSync(path.join(__dirname, '/resources/users.json'), 'utf8'));
-// @myTest
-
 describe('Data Validation Tests', () => {
   it('should include user Alice Smith with correct details', () => {
     const alice = exportedUsers.find(user => user.name === 'Alice Smith');
